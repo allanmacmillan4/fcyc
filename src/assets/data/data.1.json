@@ -1,6 +1,7 @@
 {
+
   "schedule": [{
-    "date": "saturday",
+    "date": "friday",
     "groups": [{
       "time": "8:00 am",
       "sessions": [{
@@ -203,63 +204,6 @@
         "id": "20"
       }]
     }]
-  }, {
-    "date": "friday",
-    "groups": [{
-      "time": "7:00 pm",
-      "sessions": [{
-        "name": "Arrive",
-        "timeStart": "7:00 pm",
-        "timeEnd": "8:00 pm",
-        "location": "Main Door",
-        "tracks": ["Food"],
-        "id": "101"
-      }]
-    }, {
-      "time": "8:00 pm",
-      "sessions": [{
-        "name": "Main Meeting - Worship & Introductions",
-        "location": "Kilpatrick Room",
-        "description": "lwhdkjhqwd",
-        "timeStart": "8:00 pm",
-        "timeEnd": "9:30 pm",
-        "tracks": ["Ionic"],
-        "id": "102"
-      }]
-    }, {
-      "time": "9:30 pm",
-      "sessions": [{
-        "name": "Supper",
-        "location": "Dining Room",
-        "description": "Chill out, grab some tea, coffee and snacks and get to know some of the folk you haven't met before!",
-        "timeStart": "9:30 pm",
-        "timeEnd": "10:00 pm",
-        "tracks": ["Ionic"],
-        "id": "105"
-      }]
-    }, {
-      "time": "10:00 pm",
-      "sessions": [{
-        "name": "Free Time",
-        "location": "Anywhere",
-        "description": "Enjoy",
-        "timeStart": "10:00 pm",
-        "timeEnd": "11:00 pm",
-        "tracks": ["Workshop"],
-        "id": "109"
-      }]
-    }, {
-      "time": "11:00 pm",
-      "sessions": [{
-        "name": "Lights Out",
-        "location": "Anywhere",
-        "description": "Light out in dorms, feel free to stay up but keep the noise down and be respectful to others who may want to sleep",
-        "timeStart": "11:00 pm",
-        "timeEnd": "3:00 am",
-        "tracks": ["Food"],
-        "id": "120"
-      }]
-    }]
   }],
 
 
@@ -382,22 +326,7 @@
     "id": "13"
   }],
 
-  "message": "'To Timothy, my true child in the faith: Grace, mercy, and peace from God the Father and Christ Jesus our Lord…' (1 Timothy 1:2)\n\nThe months have turned into weeks, the weeks have turned into days, days into hours, and now we have finally arrived. We’ve travelled miles across the country (hats off to those who have crossed seas) to be here and it is an immense privilege and joy to be able to welcome you to this year’s Free Church Youth Conference.\n\nMany a thank you needs to be expressed at this point not least beginning with you guys. Lots of people have made sacrifices to be here and your commitment and enthusiasm to this weekend is humbling. Thank you to the seminar speakers, giving of their time to come share their wisdom and I hope there is something offered to benefit your spiritual wellbeing (the committee think you are going to struggle choosing just two of the seminars!). This weekend is going to be fuelled by some top class people in the kitchen, spearheaded by the wonderful husband and wife duo of Gerry & Fiona Dolan (if you want to see Christian service in action, then observe and learn from these guys). At this point, can we all take a moment to appreciate the endeavours of my committee members. They’ve had a rough time of it enduring my demands and requests and each one has excelled with grace and humility. Be sure to thank them. A warm welcome and thank you needs to be extended to our main speaker this year, Calum Iain Macleod - minister of Back Free Church. Calum Iain is no stranger to the conference having been the successful face of the famous 2016 minister’s “BOOK NOW’ advertising campaign. We are delighted Calum Iain can be here, along with his wife Dina, and I am looking forward to being stretched by what he will have to share with us from God’s word.\n\nWe are going to be spending the bulk of our time with Calum Iain in the gymnasium of 1 & 2 Timothy, exercising our minds in matters of faith and godliness just as Paul was writing to Timothy to call him to live a life beyond reproach and marked out by boldness, endurance, and faithfulness. This life is not a game and our commitment to our walk with God must be one we take seriously. I love how real the Bible gets about holiness. This Christian life is a struggle, sin will show up in a believer’s life but it is still a life about striving for obedience. There is a fight. A fight we will ultimately win empowered by the Spirit of God. Let’s be serious about our sanctification. \n\nPraise God for other ways he helps us in this fight too. We have each other, the body of Christ, what a resource! We are delighted to have Mud (real name) and Maggie Macleod as our houseparents, to share wisdom that comes with spiritual maturity. Please talk to them, ask them questions, ask them about the times they’ve got it wrong as well as right and share in the joy that comes with being around them. \n\nMake the most of the time with old friends and be bold to make new friends. Be bold to be happy in Jesus. Be bold in saying I desire holiness. Then help each other do it.\n\nThis is your weekend. Have an absolute belter of a time!\n\nLove, Carina x",
-  "information": [
-    {
-      "title": "Bookstall",
-      "body": "We are delighted to welcome back 10ofThose to provide the bookstall once again for the weekend. There will be a variety of books as well as some that have been recommended by our various speakers. Be sure to check it out and please take the time to speak to our 10ofthose rep, Alex, who will be happy to help and will enjoy your chat. If you are not sure what to buy, Alex will point you in the right direction so make the most of his wisdom this weekend too. "
-    },
-    {
-      "title": "A Few Rules",
-      "body": "1. No alcohol is allowed at the Conference and no smoking is allowed inside the buildings or near the front door. \n2. \t Don't make a noise in the corridors when people are trying to sleep. \n3. \t If you have a cup of tea or coffee please make sure you wash your cup once finished.\n4. \t Help the cooks as much as possible by clearing away the plates on your tables and remember if it is your turn to do the dishes.\n5. \t The fire alarm is near the ping pong table, try not to set it off with your elbow.  \n6. \t Enjoy your weekend!"
-    }
-  ],
 
-  "cooks": {
-    "imgUrl": "./.",
-    "message": "Keeping us fed and watered over the weekend is this exciting mix of humans assembled together by the dream team of Gerry and Fiona Dolan: Gerry is a chef (thank goodness!), Fiona is a woman of many talents and enjoys kicking back with some Tim Keller audios.  /n/nAlso in the kitchen are Fiona Johnson from Nairn, Karl Reece from Rosskeen, Alice Munro from Smithton, Fiona Ross from Dunfermline. \n\nWe are so thankful for these guys and love them all to bits!"
-  },
   "map": [{
     "name": "Monona Terrace Convention Center",
     "lat": 43.071584,

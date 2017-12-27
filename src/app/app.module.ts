@@ -14,7 +14,7 @@ import { ConferenceApp } from './app.component';
 import { AboutPage } from '../pages/about/about';
 import { PopoverPage } from '../pages/about-popover/about-popover';
 import { AccountPage } from '../pages/account/account';
-import { LoginPage } from '../pages/login/login';
+import { ConvenorPage } from '../pages/convenor/convenor';
 import { MapPage } from '../pages/map/map';
 import { SchedulePage } from '../pages/schedule/schedule';
 import { ScheduleFilterPage } from '../pages/schedule-filter/schedule-filter';
@@ -25,6 +25,8 @@ import { SpeakerListPage } from '../pages/speaker-list/speaker-list';
 import { TabsPage } from '../pages/tabs-page/tabs-page';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 import { SupportPage } from '../pages/support/support';
+import { InformationPage } from '../pages/information/information';
+import { CooksPage } from '../pages/cooks/cooks';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
@@ -35,7 +37,7 @@ import { UserData } from '../providers/user-data';
     ConferenceApp,
     AboutPage,
     AccountPage,
-    LoginPage,
+    ConvenorPage,
     MapPage,
     PopoverPage,
     SchedulePage,
@@ -46,7 +48,10 @@ import { UserData } from '../providers/user-data';
     SpeakerListPage,
     TabsPage,
     TutorialPage,
-    SupportPage
+    SupportPage,
+    InformationPage,
+    CooksPage
+  
   ],
   imports: [
     BrowserModule,
@@ -63,7 +68,9 @@ import { UserData } from '../providers/user-data';
         { component: AboutPage, name: 'About', segment: 'about' },
         { component: TutorialPage, name: 'Tutorial', segment: 'tutorial' },
         { component: SupportPage, name: 'SupportPage', segment: 'support' },
-        { component: LoginPage, name: 'LoginPage', segment: 'login' },
+        { component: ConvenorPage, name: 'ConvenorPage', segment: 'convenor' },
+        { component: InformationPage, name: 'InformationPage', segment: 'information' },
+        { component: CooksPage, name: 'CooksPage', segment: 'cooks' },
         { component: AccountPage, name: 'AccountPage', segment: 'account' },
         { component: SignupPage, name: 'SignupPage', segment: 'signup' }
       ]
@@ -75,7 +82,7 @@ import { UserData } from '../providers/user-data';
     ConferenceApp,
     AboutPage,
     AccountPage,
-    LoginPage,
+    ConvenorPage,
     MapPage,
     PopoverPage,
     SchedulePage,
@@ -86,7 +93,9 @@ import { UserData } from '../providers/user-data';
     SpeakerListPage,
     TabsPage,
     TutorialPage,
-    SupportPage
+    SupportPage,
+    InformationPage,
+    CooksPage
   ],
   providers: [
     { provide: ErrorHandler, useClass: IonicErrorHandler },

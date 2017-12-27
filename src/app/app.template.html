@@ -57,7 +57,7 @@
 
       <ion-list>
         <ion-list-header>
-          Navigate
+          Main Information
         </ion-list-header>
         <button ion-item menuClose *ngFor="let p of appPages" (click)="openPage(p)">
           <ion-icon item-start [name]="p.icon" [color]="isActive(p)"></ion-icon>
@@ -67,7 +67,7 @@
 
       <ion-list>
         <ion-list-header>
-          Account
+          Extras
         </ion-list-header>
         <button ion-item menuClose *ngFor="let p of loggedInPages" (click)="openPage(p)">
           <ion-icon item-start [name]="p.icon" [color]="isActive(p)"></ion-icon>
