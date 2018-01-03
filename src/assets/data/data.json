@@ -261,10 +261,41 @@
       }]
     }]
   }],
-
+  "committee": [{
+    "name": "John MacPherson",
+    "role": "Convenor",
+    "description" : "dkldjldjdljkdlkjdlj",
+    "profilePic": "assets/img/speakers/bear.jpg"
+  },
+  {
+    "name": "Craig Angus",
+    "role": "Vice-Convenor",
+    "description" : "dkldjldjdljkdlkjdlj",
+    "profilePic": "assets/img/speakers/bear.jpg"
+  },{
+    "name": "Allan Macmillan",
+    "role": "Technical Director",
+    "description" : "dkldjldjdljkdlkjdlj",
+    "profilePic": "assets/img/speakers/bear.jpg"
+  },{
+    "name": "Keith Nicolson",
+    "role": "Handbook & Fundraising",
+    "description" : "dkldjldjdljkdlkjdlj",
+    "profilePic": "assets/img/speakers/bear.jpg"
+  },{
+    "name": "Anna Macrae",
+    "role": "Bookings Secretary",
+    "description" : "dkldjldjdljkdlkjdlj",
+    "profilePic": "assets/img/speakers/bear.jpg"
+  },{
+    "name": "Christina Macmillan",
+    "role": "Seminar Secretary",
+    "description" : "dkldjldjdljkdlkjdlj",
+    "profilePic": "assets/img/speakers/bear.jpg"
+  }],
 
   "speakers": [{
-    "name": "Burt Bear",
+    "name": "Rev Iver Martin",
     "profilePic": "assets/img/speakers/bear.jpg",
     "twitter": "ionicframework",
     "about": "Burt is a Bear.",
@@ -273,7 +304,7 @@
     "phone": "+1-541-754-3010",
     "id": "1"
   }, {
-    "name": "Charlie Cheetah",
+    "name": "Andy Robertson",
     "profilePic": "assets/img/speakers/cheetah.jpg",
     "twitter": "ionicframework",
     "about": "Charlie is a Cheetah.",

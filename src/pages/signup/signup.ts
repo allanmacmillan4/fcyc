@@ -1,30 +1,55 @@
 import { Component } from '@angular/core';
-import { NgForm } from '@angular/forms';
 
-import { NavController } from 'ionic-angular';
+import {
+  ActionSheet,
+  ActionSheetController,
+  Config,
+  NavController
+} from 'ionic-angular';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 
-import { UserData } from '../../providers/user-data';
+import { ConferenceData } from '../../providers/conference-data';
 
-import { UserOptions } from '../../interfaces/user-options';
+import { SessionDetailPage } from '../session-detail/session-detail';
+import { SpeakerDetailPage } from '../speaker-detail/speaker-detail';
 
-import { TabsPage } from '../tabs-page/tabs-page';
-
+// TODO remove
+export interface ActionSheetButton {
+  text?: string;
+  role?: string;
+  icon?: string;
+  cssClass?: string;
+  handler?: () => boolean|void;
+};
 
 @Component({
-  selector: 'page-user',
+  selector: 'signup',
   templateUrl: 'signup.html'
 })
 export class SignupPage {
-  signup: UserOptions = { username: '', password: '' };
-  submitted = false;
+  actionSheet: ActionSheet;
+  speakers: any[] = [];
 
-  constructor(public navCtrl: NavController, public userData: UserData) {}
+  constructor(
+    public actionSheetCtrl: ActionSheetController,
+    public navCtrl: NavController,
+    public confData: ConferenceData,
+    public config: Config,
+    public inAppBrowser: InAppBrowser
+  ) {}
 
-  onSignup(form: NgForm) {
-    this.submitted = true;
-
-    if (form.valid) {
-      this.navCtrl.push(TabsPage);
-    }
+  ionViewDidLoad() {
+    this.confData.getCommittee().subscribe((speakers: any[]) => {
+      this.speakers = speakers;
+    });
   }
+
+  goToSessionDetail(session: any) {
+    this.navCtrl.push(SessionDetailPage, { sessionId: session.id });
+  }
+
+  goToSpeakerDetail(speaker: any) {
+    this.navCtrl.push(SpeakerDetailPage, { speakerId: speaker.id });
+  }
+
 }
