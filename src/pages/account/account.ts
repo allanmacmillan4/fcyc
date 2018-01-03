@@ -22,6 +22,6 @@ export class AccountPage {
 
 
   support() {
-    this.nav.push('SupportPage');
+    this.nav.push('ContactPage');
   }
 }

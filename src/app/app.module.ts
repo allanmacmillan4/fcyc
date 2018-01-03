@@ -24,7 +24,7 @@ import { SpeakerDetailPage } from '../pages/speaker-detail/speaker-detail';
 import { SpeakerListPage } from '../pages/speaker-list/speaker-list';
 import { TabsPage } from '../pages/tabs-page/tabs-page';
 import { TutorialPage } from '../pages/tutorial/tutorial';
-import { SupportPage } from '../pages/support/support';
+import { ContactPage } from '../pages/contact/contact';
 import { InformationPage } from '../pages/information/information';
 import { CooksPage } from '../pages/cooks/cooks';
 
@@ -48,7 +48,7 @@ import { UserData } from '../providers/user-data';
     SpeakerListPage,
     TabsPage,
     TutorialPage,
-    SupportPage,
+    ContactPage,
     InformationPage,
     CooksPage
   
@@ -67,7 +67,7 @@ import { UserData } from '../providers/user-data';
         { component: MapPage, name: 'Map', segment: 'map' },
         { component: AboutPage, name: 'Welcome', segment: 'welcome' },
         { component: TutorialPage, name: 'Tutorial', segment: 'tutorial' },
-        { component: SupportPage, name: 'SupportPage', segment: 'support' },
+        { component: ContactPage, name: 'ContactPage', segment: 'contact' },
         { component: ConvenorPage, name: 'ConvenorPage', segment: 'convenor' },
         { component: InformationPage, name: 'InformationPage', segment: 'information' },
         { component: CooksPage, name: 'CooksPage', segment: 'cooks' },
@@ -93,7 +93,7 @@ import { UserData } from '../providers/user-data';
     SpeakerListPage,
     TabsPage,
     TutorialPage,
-    SupportPage,
+    ContactPage,
     InformationPage,
     CooksPage
   ],

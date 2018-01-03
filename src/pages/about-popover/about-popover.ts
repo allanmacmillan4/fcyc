@@ -10,7 +10,7 @@ import { App, NavController, ModalController, ViewController } from 'ionic-angul
       <button ion-item (click)="close('http://ionicframework.com/docs/v2')">Documentation</button>
       <button ion-item (click)="close('http://showcase.ionicframework.com')">Showcase</button>
       <button ion-item (click)="close('https://github.com/ionic-team/ionic')">GitHub Repo</button>
-      <button ion-item (click)="support()">Support</button>
+      <button ion-item (click)="support()">Contact</button>
     </ion-list>
   `
 })
@@ -24,7 +24,7 @@ export class PopoverPage {
   ) { }
 
   support() {
-    this.app.getRootNav().push('SupportPage');
+    this.app.getRootNav().push('ContactPage');
     this.viewCtrl.dismiss();
   }
 

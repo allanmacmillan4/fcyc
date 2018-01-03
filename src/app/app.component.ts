@@ -6,7 +6,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { Storage } from '@ionic/storage';
 
 import { AboutPage } from '../pages/about/about';
-import { AccountPage } from '../pages/account/account';
 import { ConvenorPage } from '../pages/convenor/convenor';
 import { MapPage } from '../pages/map/map';
 import { SignupPage } from '../pages/signup/signup';
@@ -14,7 +13,7 @@ import { TabsPage } from '../pages/tabs-page/tabs-page';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 import { SchedulePage } from '../pages/schedule/schedule';
 import { SpeakerListPage } from '../pages/speaker-list/speaker-list';
-import { SupportPage } from '../pages/support/support';
+import { ContactPage } from '../pages/contact/contact';
 import { InformationPage } from '../pages/information/information';
 import { CooksPage } from '../pages/cooks/cooks';
 
@@ -53,7 +52,7 @@ export class ConferenceApp {
     { title: 'Convenor\'s Message', name: 'ConvenorPage', component: ConvenorPage, icon: 'md-text' },
     { title: 'Essential Information', name: 'InformationPage', component: InformationPage, icon: 'md-information-circle' },
     { title: 'Cooks', name: 'CooksPage', component: CooksPage, icon: 'md-pizza' },
-    { title: 'Support', name: 'SupportPage', component: SupportPage, icon: 'help' },
+    { title: 'Contact Info', name: 'ContactPage', component: ContactPage, icon: 'md-help' },
     { title: 'The Committee', name: 'SignupPage', component: SignupPage, icon: 'ios-people' }
   ];
   rootPage: any;
