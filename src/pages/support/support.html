@@ -4,31 +4,27 @@
 		<button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-		<ion-title>Support</ion-title>
+		<ion-title>Contact</ion-title>
 	</ion-navbar>
 
 </ion-header>
 
 
 <ion-content>
-	<div class="logo">
-		<img src="assets/img/appicon.svg" alt="Ionic Logo">
-	</div>
+	<ion-card padding>
+		<h2>Before The Weekend</h2>
+		<br>
+		<p><a href="mailto:freechurchyouthconference@gmail.com">freechurchyouthconference@gmail.com</a></p>
+	</ion-card>
+	
+	<ion-card padding>
+		<h2>General Questions</h2>
+		<p>Please come up to ask one of the committee over the weekend</p>
+	</ion-card>
 
-	<form #submitForm="ngForm" novalidate (ngSubmit)="submit(submitForm)">
-		<ion-list no-lines>
-			<ion-item>
-				<ion-label stacked color="primary">Enter your support message below</ion-label>
-				<ion-textarea [(ngModel)]="supportMessage" name="supportQuestion" #supportQuestion="ngModel" rows="6" required></ion-textarea>
-			</ion-item>
-		</ion-list>
-
-		<p ion-text [hidden]="supportQuestion.valid || submitted === false" color="danger" padding-left>
-			Support message is required
-		</p>
-
-		<div padding>
-			<button ion-button block type="submit">Submit</button>
-		</div>
-	</form>
+	<ion-card padding>
+		<h2>Emergency</h2>
+		<p>You can contact the convenor on : 07737474747</p>
+		<p>You can contact the the Lendrick Muir manager on: 078365392664</p>
+	</ion-card>
 </ion-content>
