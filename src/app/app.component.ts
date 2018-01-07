@@ -46,7 +46,7 @@ export class ConferenceApp {
     { title: 'Welcome', name: 'TabsPage', component: TabsPage, tabComponent: AboutPage, index: 0, icon: 'md-thumbs-up' },
     { title: 'Schedule', name: 'TabsPage', component: TabsPage, tabComponent: SchedulePage, index: 1, icon: 'md-calendar' },
     { title: 'Speakers', name: 'TabsPage', component: TabsPage, tabComponent: SpeakerListPage, index: 2, icon: 'md-contacts' },
-    { title: 'Map', name: 'TabsPage', component: TabsPage, tabComponent: MapPage, index: 3, icon: 'md-map' },
+    { title: 'Floorplan', name: 'TabsPage', component: TabsPage, tabComponent: MapPage, index: 3, icon: 'md-map' },
   ];
   loggedOutPages: PageInterface[] = [
     { title: 'Convenor\'s Message', name: 'ConvenorPage', component: ConvenorPage, icon: 'md-text' },

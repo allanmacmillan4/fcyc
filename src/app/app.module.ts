@@ -64,7 +64,7 @@ import { UserData } from '../providers/user-data';
         { component: ScheduleFilterPage, name: 'ScheduleFilter', segment: 'scheduleFilter' },
         { component: SpeakerListPage, name: 'SpeakerList', segment: 'speakerList' },
         { component: SpeakerDetailPage, name: 'SpeakerDetail', segment: 'speakerDetail/:speakerId' },
-        { component: MapPage, name: 'Map', segment: 'map' },
+        { component: MapPage, name: 'Floorplan', segment: 'floorplan' },
         { component: AboutPage, name: 'Welcome', segment: 'welcome' },
         { component: TutorialPage, name: 'Tutorial', segment: 'tutorial' },
         { component: ContactPage, name: 'ContactPage', segment: 'contact' },
