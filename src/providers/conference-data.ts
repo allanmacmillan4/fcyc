@@ -12,23 +12,9 @@ import 'rxjs/add/observable/of';
 @Injectable()
 export class ConferenceData {
   data: any;
-
-  colors = {
-    'Chill': '#AC282B',
-    'Main Meeting': '#8E8D93',
-    'Prayer': '#FE4C52',
-    'Seminar Session 1': '#FD8B2D',
-    'Seminar Session 2': '#FED035',
-    'Misc': '#69BB7B',
-    'Food': '#3BC7C4',
-    'Seminar Session 3': '#B16BE3'
-  }
+  days = ['friday', 'saturday', 'sunday']
 
   constructor(public http: Http, public user: UserData) { }
-
-  getColorForTrack(track: string){
-    return this.colors[track] ? this.colors[track] : 'violet'
-  }
 
   load(): any {
     if (this.data) {
@@ -78,11 +64,12 @@ export class ConferenceData {
     return this.data;
   }
 
-  getTimeline(queryText = '', selectedDay = 'friday') {
+   getTimeline(day:string, queryText = '', excludeTracks: any[] = []) {
+    let dayIndex = this.days.indexOf(day);
+    
     return this.load().map((data: any) => {
-      let index: number = data.schedule.findIndex(x => x.date === selectedDay)
-      let day = data.schedule[index];
-      day.shownSessions =index;
+      let day = data.schedule[dayIndex];
+      day.shownSessions = 0;
 
       queryText = queryText.toLowerCase().replace(/,|\.|-/g, ' ');
       let queryWords = queryText.split(' ').filter(w => !!w.trim().length);
@@ -92,7 +79,7 @@ export class ConferenceData {
 
         group.sessions.forEach((session: any) => {
           // check if this session should show or not
-          this.filterSession(session, queryWords);
+          this.filterSession(session, queryWords, excludeTracks);
 
           if (!session.hide) {
             // if this session is not hidden then this group should show
@@ -107,7 +94,7 @@ export class ConferenceData {
     });
   }
 
-  filterSession(session: any, queryWords: string[]) {
+  filterSession(session: any, queryWords: string[], excludeTracks: any[]) {
 
     let matchesQueryText = false;
     if (queryWords.length) {
@@ -122,8 +109,19 @@ export class ConferenceData {
       matchesQueryText = true;
     }
 
+    // if any of the sessions tracks are not in the
+    // exclude tracks then this session passes the track test
+    let matchesTracks = false;
+    session.tracks.forEach((trackName: string) => {
+      if (excludeTracks.indexOf(trackName) === -1) {
+        matchesTracks = true;
+      }
+    });
+
+    let matchesSegment = true;
+
     // all tests must be true if it should not be hidden
-    session.hide = !(matchesQueryText);
+    session.hide = !(matchesQueryText && matchesTracks && matchesSegment);
   }
 
   getSpeakers() {

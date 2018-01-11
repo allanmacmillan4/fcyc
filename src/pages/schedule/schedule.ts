@@ -55,19 +55,10 @@ export class SchedulePage {
     // Close any open sliding items when the schedule updates
     this.scheduleList && this.scheduleList.closeSlidingItems();
 
-    this.confData.getTimeline(this.queryText, this.segment).subscribe((data: any) => {
+    this.confData.getTimeline(this.segment, this.queryText, this.excludeTracks).subscribe((data: any) => {
       this.shownSessions = data.shownSessions;
-      this.groups = data.groups.map(x => {
-        x.sessions = x.sessions.map(y => {
-          if (this.excludeTracks.length > 0 && this.excludeTracks.indexOf(y.tracks[0]) > -1) {
-            y.hide = true;
-          } 
-          return y;
-        })
-        return x;
-      });
+      this.groups = data.groups;
     });
-    
   }
 
   toLowerNoSpaces(track: string){
@@ -98,7 +89,7 @@ export class SchedulePage {
   }
 
   doRefresh(refresher: Refresher) {
-    this.confData.getTimeline(this.queryText, this.segment).subscribe((data: any) => {
+     this.confData.getTimeline(this.segment, this.queryText, this.excludeTracks).subscribe((data: any) => {
       this.shownSessions = data.shownSessions;
       this.groups = data.groups;
 
