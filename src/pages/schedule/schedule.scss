@@ -1,25 +1,37 @@
 $categories: (
  ionic: color($colors, primary),
  chill: #AC282B,
- mainmeeting: #8E8D93,
+ 'MainMeeting': #8E8D93,
  tooling: #FE4C52,
  services: #FD8B2D,
  design: #FED035,
  workshop: #69BB7B,
- food: #3BC7C4,
+ 'food': #3BC7C4,
  documentation: #B16BE3,
  navigation: #6600CC,
 );
 
-@function auxiliary-categories() {
-  @return map-remove($categories);
+.chill ion-label {
+  border-color: #AC282B
+}.mainmeeting ion-label {
+  border-color: #8E8D93
+}.prayer ion-label {
+  border-color: #FE4C52
+}.seminarsession1 ion-label {
+  border-color: #FD8B2D
+}.seminarsession2 ion-label {
+  border-color: #FED035
+}.misc ion-label {
+  border-color: #69BB7B
+}.food ion-label {
+  border-color: #3BC7C4
+}.seminarsession3 ion-label {
+  border-color: #B16BE3
 }
 
 page-schedule {
-  @each $track, $value in auxiliary-categories() {
-   ion-item-sliding[track=#{$track}] ion-label {
-     border-left: 2px solid $value;
+   ion-item-sliding ion-label {
+     border-left: 4px solid;
      padding-left: 10px;
    }
-  }
 }

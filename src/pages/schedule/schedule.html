@@ -47,7 +47,10 @@
         </ion-label>
       </ion-item-divider>
 
-      <ion-item-sliding *ngFor="let session of group.sessions" #slidingItem [attr.track]="session.tracks[0] | lowercase" [hidden]="session.hide">
+      <ion-item-sliding *ngFor="let session of group.sessions" 
+      [attr.track]="session.tracks[0] | lowercase"
+      [ngClass]="toLowerNoSpaces(session.tracks[0])" 
+      [hidden]="session.hide">
 
         <button ion-item (click)="goToSessionDetail(session, segment)">
           <h3>{{session.name}}</h3>

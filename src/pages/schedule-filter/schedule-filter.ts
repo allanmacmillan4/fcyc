@@ -32,10 +32,10 @@ export class ScheduleFilterPage {
     });
   }
 
-  resetFilters() {
+  resetFilters(val: boolean) {
     // reset all of the toggles to be checked
     this.tracks.forEach(track => {
-      track.isChecked = true;
+      track.isChecked = val;
     });
   }
 

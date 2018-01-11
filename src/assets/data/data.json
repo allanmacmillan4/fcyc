@@ -19,7 +19,7 @@
         "description": "lwhdkjhqwd",
         "timeStart": "8:00 pm",
         "timeEnd": "9:30 pm",
-        "tracks": ["MainMeeting"],
+        "tracks": ["Main Meeting"],
         "id": "102"
       }]
     }, {
@@ -77,7 +77,7 @@
         "speakerNames": ["Rev Iver Martin"],
         "timeStart": "9:45 am",
         "timeEnd": "11:00 am",
-        "tracks": ["MainMeeting"],
+        "tracks": ["Main Meeting"],
         "id": "3"
       }]
     }, {
@@ -100,7 +100,7 @@
         "speakerNames": ["Iain Hepburn"],
         "timeStart": "11:30 am",
         "timeEnd": "12:45 pm",
-        "tracks": ["SeminarSession1"],
+        "tracks": ["Seminar Session 1"],
         "id": "5"
       }, {
         "name": "What Hapens When We Get It Wrong",
@@ -109,7 +109,7 @@
         "speakerNames": ["Dominic Smart"],
         "timeStart": "11:30 am",
         "timeEnd": "12:45 pm",
-        "tracks": ["SeminarSession1"],
+        "tracks": ["Seminar Session 1"],
         "id": "500"
       },{
         "name": "Christians In The Workplace",
@@ -118,7 +118,7 @@
         "speakerNames": ["Kate Forbes"],
         "timeStart": "11:30 am",
         "timeEnd": "12:45 pm",
-        "tracks": ["SeminarSession1"],
+        "tracks": ["Seminar Session 1"],
         "id": "5588"
       },{
         "name": "Christians & Mental Health",
@@ -127,7 +127,7 @@
         "speakerNames": ["Louise Macmillan"],
         "timeStart": "11:30 am",
         "timeEnd": "12:45 pm",
-        "tracks": ["SeminarSession1"],
+        "tracks": ["Seminar Session 1"],
         "id": "12969875"
       },{
         "name": "How To Handle The Bible",
@@ -136,7 +136,7 @@
         "speakerNames": ["Andy Robertson"],
         "timeStart": "11:30 am",
         "timeEnd": "12:45 pm",
-        "tracks": ["SeminarSession1"],
+        "tracks": ["Seminar Session 1"],
         "id": "582876138"
       },{
         "name": "Dealing With The Gender Revolution",
@@ -145,7 +145,7 @@
         "speakerNames": ["Lara Buchanan"],
         "timeStart": "11:30 am",
         "timeEnd": "12:45 pm",
-        "tracks": ["SeminarSession1"],
+        "tracks": ["Seminar Session 1"],
         "id": "59987123"
       },{
         "name": "Bioethics & The Bible",
@@ -154,7 +154,7 @@
         "speakerNames": ["Calum Mackellar"],
         "timeStart": "11:30 am",
         "timeEnd": "12:45 pm",
-        "tracks": ["SeminarSession1"],
+        "tracks": ["Seminar Session 1"],
         "id": "1230985"
       }]
     }, {
@@ -177,7 +177,7 @@
         "speakerNames": ["Iain Hepburn"],
         "timeStart": "2:00 pm",
         "timeEnd": "3:15 pm",
-        "tracks": ["SeminarSession2"],
+        "tracks": ["Seminar Session 2"],
         "id": "5123"
       }, {
         "name": "What Hapens When We Get It Wrong",
@@ -186,7 +186,7 @@
         "speakerNames": ["Dominic Smart"],
         "timeStart": "2:00 pm",
         "timeEnd": "12:45 pm",
-        "tracks": ["SeminarSession2"],
+        "tracks": ["Seminar Session 2"],
         "id": "500123"
       },{
         "name": "Christians In The Workplace",
@@ -195,7 +195,7 @@
         "speakerNames": ["Kate Forbes"],
         "timeStart": "2:00 pm",
         "timeEnd": "3:15 pm",
-        "tracks": ["SeminarSession2"],
+        "tracks": ["Seminar Session 2"],
         "id": "558818489"
       },{
         "name": "Christians & Mental Health",
@@ -204,7 +204,7 @@
         "speakerNames": ["Louise Macmillan"],
         "timeStart": "2:00 pm",
         "timeEnd": "3:15 pm",
-        "tracks": ["SeminarSession2"],
+        "tracks": ["Seminar Session 2"],
         "id": "1296987541431"
       },{
         "name": "How To Handle The Bible",
@@ -213,7 +213,7 @@
         "speakerNames": ["Andy Robertson"],
         "timeStart": "2:00 pm",
         "timeEnd": "3:15 pm",
-        "tracks": ["SeminarSession2"],
+        "tracks": ["Seminar Session 2"],
         "id": "5828761342138"
       },{
         "name": "Dealing With The Gender Revolution",
@@ -222,7 +222,7 @@
         "speakerNames": ["Lara Buchanan"],
         "timeStart": "2:00 pm",
         "timeEnd": "3:15 pm",
-        "tracks": ["SeminarSession2"],
+        "tracks": ["Seminar Session 2"],
         "id": "5998712312312"
       },{
         "name": "Bioethics & The Bible",
@@ -231,7 +231,7 @@
         "speakerNames": ["Calum Mackellar"],
         "timeStart": "2:00 pm",
         "timeEnd": "3:15 pm",
-        "tracks": ["SeminarSession2"],
+        "tracks": ["Seminar Session 2"],
         "id": "12309854313231"
       }]
     }, {
@@ -264,7 +264,7 @@
         "speakerNames": ["Rev Iver Martin"],
         "timeStart": "8:00 pm",
         "timeEnd": "9:15 pm",
-        "tracks": ["MainMeeting"],
+        "tracks": ["Main Meeting"],
         "id": "16"
       }]
     }, {
@@ -287,7 +287,7 @@
         "description": "Obligatory Fun",
         "timeStart": "9:30 pm",
         "timeEnd": "10:30 pm",
-        "tracks": ["Entertainment"],
+        "tracks": ["Chill"],
         "id": "1934234"
       }]
     },
@@ -336,7 +336,7 @@
         "speakerNames": ["Rev Iver Martin"],
         "timeStart": "9:45 am",
         "timeEnd": "11:00 am",
-        "tracks": ["MainMeeting"],
+        "tracks": ["Main Meeting"],
         "id": "333"
       }]
     }, {
@@ -381,7 +381,7 @@
         "description": "",
         "timeStart": "2:30 pm",
         "timeEnd": "3:30 pm",
-        "tracks": ["SeminarSession3"],
+        "tracks": ["Seminar Session 3"],
         "id": "1233"
       },
     {
@@ -391,7 +391,7 @@
         "description": "",
         "timeStart": "2:30 pm",
         "timeEnd": "3:30 pm",
-        "tracks": ["SeminarSession3"],
+        "tracks": ["Seminar Session 3"],
         "id": "123344"
       }]
     }, {

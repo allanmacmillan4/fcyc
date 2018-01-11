@@ -33,6 +33,7 @@ export class SchedulePage {
   shownSessions: any = [];
   groups: any = [];
   confDate: string;
+  
 
   constructor(
     public alertCtrl: AlertController,
@@ -56,8 +57,21 @@ export class SchedulePage {
 
     this.confData.getTimeline(this.queryText, this.segment).subscribe((data: any) => {
       this.shownSessions = data.shownSessions;
-      this.groups = data.groups;
+      this.groups = data.groups.map(x => {
+        x.sessions = x.sessions.map(y => {
+          if (this.excludeTracks.length > 0 && this.excludeTracks.indexOf(y.tracks[0]) > -1) {
+            y.hide = true;
+          } 
+          return y;
+        })
+        return x;
+      });
     });
+    
+  }
+
+  toLowerNoSpaces(track: string){
+    return track.toLowerCase().replace(/\s/g,'');
   }
 
   presentFilter() {

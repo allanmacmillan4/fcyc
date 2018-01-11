@@ -13,7 +13,22 @@ import 'rxjs/add/observable/of';
 export class ConferenceData {
   data: any;
 
+  colors = {
+    'Chill': '#AC282B',
+    'Main Meeting': '#8E8D93',
+    'Prayer': '#FE4C52',
+    'Seminar Session 1': '#FD8B2D',
+    'Seminar Session 2': '#FED035',
+    'Misc': '#69BB7B',
+    'Food': '#3BC7C4',
+    'Seminar Session 3': '#B16BE3'
+  }
+
   constructor(public http: Http, public user: UserData) { }
+
+  getColorForTrack(track: string){
+    return this.colors[track] ? this.colors[track] : 'violet'
+  }
 
   load(): any {
     if (this.data) {

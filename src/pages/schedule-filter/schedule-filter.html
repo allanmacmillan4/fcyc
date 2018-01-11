@@ -28,9 +28,13 @@
   </ion-list>
 
   <ion-list>
-    <button ion-item (click)="resetFilters()" detail-none class="reset-filters">
-      Reset All Filters
+    <button ion-item (click)="resetFilters(true)" detail-none class="reset-filters">
+      Check All
     </button>
+    <button ion-item (click)="resetFilters(false)" detail-none class="reset-filters">
+      Uncheck All
+    </button>
+
   </ion-list>
 
 </ion-content>
