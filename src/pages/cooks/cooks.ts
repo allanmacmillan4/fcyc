@@ -12,7 +12,6 @@ export class CooksPage {
 
   ionViewWillEnter() {
     this.conferenceData.getCooks().subscribe((message: ICooks) => {
-      debugger;
       this.information = message;
     })  
   }

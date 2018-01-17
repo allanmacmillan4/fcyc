@@ -1,43 +1,28 @@
-<ion-header no-border>
-  <ion-navbar>
-    <ion-buttons end *ngIf="showSkip">
-      <button ion-button (click)="startApp()" color="primary">Skip</button>
-    </ion-buttons>
-  </ion-navbar>
-</ion-header>
-
 <ion-content no-bounce>
   <ion-slides #slides (ionSlideWillChange)="onSlideChangeStart($event)" pager>
 
     <ion-slide>
-      <img src="assets/img/ica-slidebox-img-1.png" class="slide-image"/>
+      <img src="assets/img/fcyc-ionic.png" class="slide-image"/>
       <h2 class="slide-title">
-        Welcome to <b>ICA</b>
+        Welcome to <b>FCYC 2018</b>
       </h2>
       <p>
-        The <b>ionic conference app</b> is a practical preview of the ionic framework in action, and a demonstration of proper code use.
+        The Free Chuch Youth Conference Committee 2018 would like to welcome you to this years conference. <br>
+        We pray that the Lord would bless this weekend, that you might grow in grace and that you would benefit from the fellowship
+        of other Christians from the length and breadth of Scotland. <br>
+
+
       </p>
     </ion-slide>
 
     <ion-slide>
       <img src="assets/img/ica-slidebox-img-2.png" class="slide-image"/>
-      <h2 class="slide-title" >What is Ionic?</h2>
-      <p><b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies like HTML, CSS, and JavaScript.</p>
-    </ion-slide>
+      <h2 class="slide-title" >Login</h2>
+      <p>This app is password protected - please enter the password</p>
+<br/>
 
-    <ion-slide>
-      <img src="assets/img/ica-slidebox-img-3.png" class="slide-image"/>
-      <h2 class="slide-title">What is Ionic Pro?</h2>
-      <p><b>Ionic Pro</b> is a powerful set of services and features built on top of Ionic Framework that brings a totally new level of app development agility to mobile dev teams.</p>
-    </ion-slide>
-
-    <ion-slide>
-      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>
-      <h2 class="slide-title">Ready to Play?</h2>
-      <button ion-button icon-end large clear (click)="startApp()">
-        Continue
-        <ion-icon name="arrow-forward"></ion-icon>
-      </button>
+      <input color="danger" [(ngModel)]="pwd" type="text"/><br/>
+      <button ion-button color="primary"  (click)="onClick()">Submit</button>
     </ion-slide>
 
   </ion-slides>

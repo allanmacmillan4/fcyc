@@ -3,7 +3,6 @@ import { Component } from '@angular/core';
 import {
   ActionSheet,
   ActionSheetController,
-  ActionSheetOptions,
   Config,
   NavController
 } from 'ionic-angular';

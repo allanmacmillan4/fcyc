@@ -68,9 +68,9 @@ export class ConferenceApp {
   ) {
 
     // Check if the user has already seen the tutorial
-    this.storage.get('hasSeenTutorial')
-      .then((hasSeenTutorial) => {
-        if (hasSeenTutorial) {
+    this.storage.get('alks')
+      .then((pwdCorrect) => {
+        if (pwdCorrect) {
           this.rootPage = TabsPage;
         } else {
           this.rootPage = TutorialPage;
