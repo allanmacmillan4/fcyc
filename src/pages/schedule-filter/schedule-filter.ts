@@ -45,6 +45,21 @@ export class ScheduleFilterPage {
     this.dismiss(excludedTrackNames);
   }
 
+  color =  {
+    chill : '#AC282B',
+    mainmeeting : '#8E8D93',
+    prayer: '#FE4C52',
+    seminarsession1: '#FD8B2D',
+    seminarsession2 : '#FED035',
+    misc : '#69BB7B',
+    food : '#3BC7C4',
+    seminarsession3: '#B16BE3'
+  }
+
+  getColor(name: string) {
+        return this.color[name.toLowerCase().replace(/\s/g, '')];
+  }
+
   dismiss(data?: any) {
     // using the injected ViewController this page
     // can "dismiss" itself and pass back data

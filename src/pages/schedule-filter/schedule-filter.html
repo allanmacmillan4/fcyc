@@ -20,9 +20,10 @@
     <ion-list-header>Tracks</ion-list-header>
 
     <ion-item *ngFor="let track of tracks" [attr.track]="track.name | lowercase">
-      <span item-start class="dot"></span>
+      <span item-start class="dot" [ngStyle]="{'background-color': getColor(track.name) }"></span>
       <ion-label>{{track.name}}</ion-label>
-      <ion-toggle [(ngModel)]="track.isChecked" color="secondary"></ion-toggle>
+      <ion-toggle [(ngModel)]="track.isChecked" color=""></ion-toggle>
+      
     </ion-item>
 
   </ion-list>
