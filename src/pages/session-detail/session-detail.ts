@@ -19,11 +19,12 @@ export class SessionDetailPage {
     this.dataProvider.load().subscribe((data: any) => {
 
       if (data && data.schedule) {
-        let index = data.schedule.findIndex(x => x.date === this.navParams.data.segment);
-        if (index === -1){
-          return;
-        }
-        for (const group of data.schedule[index].groups) {
+        // let index = data.schedule.findIndex(x => x.date === this.navParams.data.segment);
+        // if (index === -1){
+        //   return;
+        // }
+        for(let index =0; index <  data.schedule.length; index++){
+          for (const group of data.schedule[index].groups) {
           if (group && group.sessions) {
             for (const session of group.sessions) {
               if (session && session.id === this.navParams.data.sessionId) {
@@ -33,6 +34,8 @@ export class SessionDetailPage {
             }
           }
         }
+        }
+        
       }
     });
   }

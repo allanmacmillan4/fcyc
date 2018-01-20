@@ -16,14 +16,20 @@
     </ion-slide>
 
     <ion-slide>
-      <img src="assets/img/ica-slidebox-img-2.png" class="slide-image"/>
-      <h2 class="slide-title" >Login</h2>
+      <div style="height:100%; width:100%; display: flex;
+    flex-direction: column;
+    justify-content: center;">
+      <div style="margin-top: -40px">
+          <h1 class="slide-title" >Login</h1>
       <p>This app is password protected - please enter the password</p>
 <br/>
 
       <input color="danger" [(ngModel)]="pwd" type="text"/><br/>
       <button ion-button color="primary"  (click)="onClick()">Submit</button>
-    </ion-slide>
+    
+      </div>
+      </div>
+      </ion-slide>
 
   </ion-slides>
 </ion-content>
