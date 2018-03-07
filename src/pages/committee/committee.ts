@@ -9,9 +9,7 @@ import {
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 import { ConferenceData } from '../../providers/conference-data';
-
-import { SessionDetailPage } from '../session-detail/session-detail';
-import { SpeakerDetailPage } from '../speaker-detail/speaker-detail';
+import * as _ from "lodash";
 
 // TODO remove
 export interface ActionSheetButton {
@@ -23,10 +21,10 @@ export interface ActionSheetButton {
 };
 
 @Component({
-  selector: 'signup',
-  templateUrl: 'signup.html'
+  selector: 'committee',
+  templateUrl: 'committee.html'
 })
-export class SignupPage {
+export class CommitteePage {
   actionSheet: ActionSheet;
   speakers: any[] = [];
 
@@ -40,16 +38,8 @@ export class SignupPage {
 
   ionViewDidLoad() {
     this.confData.getCommittee().subscribe((speakers: any[]) => {
-      this.speakers = speakers;
+      this.speakers = _.sortBy(speakers, 'id');
     });
-  }
-
-  goToSessionDetail(session: any) {
-    this.navCtrl.push(SessionDetailPage, { sessionId: session.id });
-  }
-
-  goToSpeakerDetail(speaker: any) {
-    this.navCtrl.push(SpeakerDetailPage, { speakerId: speaker.id });
   }
 
 }

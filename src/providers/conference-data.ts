@@ -158,6 +158,10 @@ export class ConferenceData {
     return this.load().map(x => x.cooks)
   }
 
+  getHouseparents() {
+    return this.load().map(x => x.houseparents)
+  }
+
   getConvenorsMessage() {
     return this.load().map(x => x.message)
   }

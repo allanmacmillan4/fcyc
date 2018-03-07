@@ -16,7 +16,7 @@
       "sessions": [{
         "name": "Main Meeting - Worship & Introductions",
         "location": "Kilpatrick Room",
-        "description": "lwhdkjhqwd",
+        "description": "Making a great start to the weekend",
         "timeStart": "8:00 pm",
         "timeEnd": "9:30 pm",
         "tracks": ["Main Meeting"],
@@ -51,6 +51,7 @@
       "time": "8:00 am",
       "sessions": [{
         "name": "Prayer Meeting",
+        "description": "Give the day to The Lord",
         "timeStart": "8:00 am",
         "timeEnd": "8:30 am",
         "location": "Kilpatrick Room",
@@ -115,7 +116,7 @@
         "name": "Christians In The Workplace",
         "location": "TBD",
         "description": "",
-        "speakerNames": ["Kate Forbes"],
+        "speakerNames": ["Anonymous"],
         "timeStart": "11:30 am",
         "timeEnd": "12:45 pm",
         "tracks": ["Seminar Session 1"],
@@ -162,7 +163,7 @@
       "sessions": [{
         "name": "Lunch",
         "location": "Dining Room",
-        "description": "Grab some food",
+        "description": "Fill your belly and prepare for some more fantastic teaching",
         "timeStart": "12:45 pm",
         "timeEnd": "2:00 pm",
         "tracks": ["Food"],
@@ -192,7 +193,7 @@
         "name": "Christians In The Workplace",
         "location": "TBD",
         "description": "",
-        "speakerNames": ["Kate Forbes"],
+        "speakerNames": ["Anonymous"],
         "timeStart": "2:00 pm",
         "timeEnd": "3:15 pm",
         "tracks": ["Seminar Session 2"],
@@ -235,57 +236,58 @@
         "id": "12309854313231"
       }]
     }, {
-      "time": "3:15 pm",
+      "time": "3:30 pm",
       "sessions": [{
         "name": "Free Time",
         "location": "Anywhere",
         "description": "Football, Capture The Tattie, uni work, or a nice relaxing walk - whatever you fancy! Invite others along with you and get to knonw some new faces",
-        "timeStart": "3:15 pm",
+        "timeStart": "3:30 pm",
         "timeEnd": "6:30 pm",
         "tracks": ["Chill"],
         "id": "12"
       }]
     }, {
-      "time": "6:30 pm",
+      "time": "6:00 pm",
       "sessions": [{
         "name": "Dinner",
         "location": "Dining Room",
-        "timeStart": "6:30 pm",
-        "timeEnd": "8:00 pm",
+        "description": "Nom Nom",
+        "timeStart": "6:00 pm",
+        "timeEnd": "7:30 pm",
         "tracks": ["Food"],
         "id": "13"
       }]
     }, {
-      "time": "8:00 pm",
+      "time": "7:30 pm",
       "sessions": [{
         "name": "Main Meeting 2 - ",
         "location": "Kilpatrick Room",
         "description": "",
         "speakerNames": ["Rev Iver Martin"],
-        "timeStart": "8:00 pm",
-        "timeEnd": "9:15 pm",
+        "timeStart": "7:30 pm",
+        "timeEnd": "8:45 pm",
         "tracks": ["Main Meeting"],
         "id": "16"
       }]
     }, {
-      "time": "9:15 pm",
+      "time": "8:45 pm",
       "sessions": [{
         "name": "Tea & Coffee",
         "location": "Dining Room",
         "description": "Grab a beverage and a treat and head back to the Kilpatrick Room for some fantastic entertainment",
-        "timeStart": "9:15 pm",
-        "timeEnd": "9:30 pm",
+        "timeStart": "8:45 pm",
+        "timeEnd": "9:00 pm",
         "tracks": ["Chill"],
         "id": "19"
       }]
     },
     {
-      "time": "9:30 pm",
+      "time": "9:00 pm",
       "sessions": [{
         "name": "Evening Entertainment",
         "location": "Kilpatrick Room",
         "description": "Obligatory Fun",
-        "timeStart": "9:30 pm",
+        "timeStart": "9:00 pm",
         "timeEnd": "10:30 pm",
         "tracks": ["Chill"],
         "id": "1934234"
@@ -307,46 +309,47 @@
   {
     "date": "sunday",
     "groups": [{
-      "time": "8:00 am",
+      "time": "8:30 am",
       "sessions": [{
         "name": "Prayer Meeting",
-        "timeStart": "8:00 am",
-        "timeEnd": "8:30 am",
+        "description": "Give the day to The Lord",
+        "timeStart": "8:30 am",
+        "timeEnd": "9:00 am",
         "location": "Kilpatrick Room",
         "tracks": ["Prayer"],
         "id": "133"
       }]
     }, {
-      "time": "8:30 am",
+      "time": "9:00 am",
       "sessions": [{
         "name": "Breakfast",
         "location": "Dining Room",
-        "description": "Some morning sustenance",
-        "timeStart": "8:30 am",
-        "timeEnd": "9:45 am",
+        "description": "Last breakfast together, make the most of it",
+        "timeStart": "9:00 am",
+        "timeEnd": "10:15 am",
         "tracks": ["Food"],
         "id": "233"
       }]
     }, {
-      "time": "9.45 am",
+      "time": "10:15 am",
       "sessions":[{
         "name": "Main Meeting 3 - ",
         "location": "Kilpatrick Room",
         "description": "Add description here",
         "speakerNames": ["Rev Iver Martin"],
-        "timeStart": "9:45 am",
-        "timeEnd": "11:00 am",
+        "timeStart": "10:15 am",
+        "timeEnd": "12:00 pm",
         "tracks": ["Main Meeting"],
         "id": "333"
       }]
     }, {
-      "time": "11:15 am",
+      "time": "12:00 pm",
       "sessions": [{
-        "name": "Voting of new committee & Thank You's",
-        "location": "Kilpatrick Room",
-        "description": "This is where you get an opportunity to vote on who you would like to be on the FCYC 2019 committee. We will also tank those who made the weekend possible",
-        "timeStart": "11:15 am",
-        "timeEnd": "11:45 am",
+        "name": "Conference Photo",
+        "location": "Outside Main Door",
+        "description": "The memories",
+        "timeStart": "12:00 pm",
+        "timeEnd": "12:30 pm",
         "tracks": ["Misc"],
         "id": "433"
       }]
@@ -375,24 +378,24 @@
     }, {
       "time": "2:30 pm",
       "sessions": [{
-        "name": "Girls Seminar",
+        "name": "Testimony Session",
         "location": "Kilpatrick Room",
-        "speakerNames": ["Rev Iver Martin"],
-        "description": "",
+        "description": "How Christ has, and is working in the lives of some of those at the conference",
         "timeStart": "2:30 pm",
         "timeEnd": "3:30 pm",
         "tracks": ["Seminar Session 3"],
         "id": "1233"
-      },
-    {
-        "name": "Boys Seminar",
-        "location": "Ochill Kitchen",
-        "speakerNames": ["Rev Iver Martin"],
-        "description": "",
-        "timeStart": "2:30 pm",
-        "timeEnd": "3:30 pm",
-        "tracks": ["Seminar Session 3"],
-        "id": "123344"
+      }]
+    },{
+      "time": "3:30 pm",
+      "sessions": [{
+        "name": "Voting & Thank You's",
+        "location": "Kilpatrick Room",
+        "description": "This is where you get an opportunity to vote on who you would like to be on the FCYC 2019 committee. We will also thank those who made the weekend possible",
+        "timeStart": "3:30 pm",
+        "timeEnd": "3:45 pm",
+        "tracks": ["Misc"],
+        "id": "433"
       }]
     }, {
       "time": "3:30 pm",
@@ -407,9 +410,9 @@
     }, {
       "time": "4:00 pm",
       "sessions": [{
-        "name": "Leave For Stirling ",
+        "name": "Head Home",
         "location": "Car Park",
-        "description": "Head to Stirling Free Church for the evening service",
+        "description": "Head home! Feel free to head to Stirling Free Church but we recommend driving home safely while it is still light outside",
         "timeStart": "4:00 pm",
         "timeEnd": "6:00 pm",
         "tracks": ["Misc"],
@@ -418,64 +421,59 @@
     }, {
       "time": "6:00 pm",
       "sessions": [{
-        "name": "Stirling Free Church Evening Service",
+        "name": "Optional - Stirling FC Evening Service",
         "location": "Stirling Court Hotel",
-        "description": "Let's worship together one more time",
+        "description": "",
         "timeStart": "6:00 pm",
         "timeEnd": "7:30 pm",
         "tracks": ["Misc"],
         "id": "1933"
       }]
-    },
-    {
-      "time": "7:30 pm",
-      "sessions": [{
-        "name": "Head home, drive safe, see you next year",
-        "location": "-",
-        "description": "Drive safe folks",
-        "timeStart": "7:30 pm",
-        "timeEnd": "whenever",
-        "tracks": ["Misc"],
-        "id": "193423433"
-      }]
-    }]
+    }
+   ]
   }],
   "committee": [{
     "name": "John MacPherson",
     "role": "Convenor",
-    "description" : "dkldjldjdljkdlkjdlj",
-    "profilePic": "assets/img/speakers/bear.jpg"
+    "description" : "When Vin Diesel got in touch with John to maybe think of taking the role of Baby Groot in the next Avengers film, John didn't even think twice. With his guitar strapped to his chest, his Scottish accent and yet bronzed Peruvian skin glowing, John said 'Thanks, Vin, not this time. I have the youth conference to be at.' That is right. Here is where he had to be. Here in these freezing digs, basking in the warmth of your hearths and hearts, on this vice Convenor gig (whatever that means). He is passionate about friends and family and believes that music is one of the greatest ways to worship our Lord together and build one another up. Be warned, he may hug you.",
+    "profilePic": "assets/img/committee/john.png",
+    "id": 1
   },
   {
     "name": "Craig Angus",
     "role": "Vice-Convenor",
-    "description" : "dkldjldjdljkdlkjdlj",
-    "profilePic": "assets/img/speakers/bear.jpg"
+    "description" : "Lifts. Organiser of fun. Instagrams food. Wears vest. Inverness accent. Occasionally Glaswegian accent. Lifts. Has handkerchief. Often has a clipboard. Headstands. Strawberry Blonde. Lifts. Loves a good singsong, and knows too many words of Celine Dion. He's pretty good chat, and all that. Enjoys a strong hug, despite the exterior of a thug. Go get his chat if you don't you'll be miffed, and did I mention that he enjoys to lift",
+    "profilePic": "assets/img/committee/craig.png",
+    "id": 2
   },{
     "name": "Allan Macmillan",
     "role": "Technical Director",
-    "description" : "dkldjldjdljkdlkjdlj",
-    "profilePic": "assets/img/speakers/bear.jpg"
+    "description" : "Allan : software something, robot, Apple’s biggest nemesis ... Allan is a software engineer involved in something to do with printing more money for China (no one listens to the end of the sentence so there’s many theories on what he really does). He has lived in Glasgow for 6 years but comes from the promised land (aka the Isle of Lewis!). He is a brother of Rev Honda and a husband/wonderful support/house cleaner/bed maker/bin put out-er to Ruth Macmillan (Nicolson) – she jokes, he does none of the above! If you start chatting to Allan about anything like pensions or investments, computer bits or software development, you do so at your own risk and may find yourself in a coma. Otherwise he’s a great guy with a big heart and a lot of passion. ",
+    "profilePic": "assets/img/committee/allan.png",
+    "id": 4
   },{
     "name": "Keith Nicolson",
     "role": "Handbook & Fundraising",
-    "description" : "dkldjldjdljkdlkjdlj",
-    "profilePic": "assets/img/speakers/bear.jpg"
+    "description" : "Keith currently lives and works in Edinburgh, working for the Free Church of Scotland in the central offices. He runs, cycles, loves motorbikes and slow cookers but more importantly he didn't leave enough room in the booklet to convince people that he is cooler than his name suggests. So speak to him or check out the FCYC app!",
+    "profilePic": "assets/img/committee/keith.png",
+    "id": 5
   },{
     "name": "Anna Macrae",
     "role": "Bookings Secretary",
-    "description" : "dkldjldjdljkdlkjdlj",
-    "profilePic": "assets/img/speakers/bear.jpg"
+    "description" : "Registered nurse since 2016, currently working in surgical urology* (*Google it if required). Granola promoter. Will always bring a hearty salad to a party. On days off can be found any place in Edinburgh where brunch is taken seriously. Willing to change trains at Perth to breath in Highland air awhile; rail replacement bus services however are a step too far. Probably has a decaf teabag to hand right now. May have in the past served everyone in her church bible study group a caffeine-free brew regardless of their wishes... is making amends for this 'crime'. Generally chooses to ignore the meaning of the phrase,\"weather-appropriate clothing\", even after a teary incident involving a quad bike tour around the forests of Rothiemurchus, -12 degrees, a decidedly spring/ summer cagoule, and gloveless, frozen fingers",
+    "profilePic": "assets/img/committee/anna.png",
+    "id": 3
   },{
     "name": "Christina Macmillan",
     "role": "Seminar Secretary",
-    "description" : "dkldjldjdljkdlkjdlj",
-    "profilePic": "assets/img/speakers/bear.jpg"
+    "description" : "Just an Inverness girl living in Invergordon. Married to Calum Honda for 5 years, we have a big white fluffy dog, Bella & expecting our first baby in June. I LOVE a good chat, kayaking and watching Netflix (Brooklyn 99 & ‘The Crown’ are big favourites). I am also a fan of random fun facts, for example, did you know that hippos have red sweat?! Studied at Queen Margaret Uni in Edinburgh & now a community nurse in East Ross. I couldn’t ask for a better job as I get to roam to the Highlands instead of locked up in a hospital ward. My typical work route can take me past llama’s, dolphins; countless chickens and sheep… don’t see many of those on a ward!",
+    "profilePic": "assets/img/committee/christina.png",
+    "id": 6
   }],
 
   "speakers": [{
     "name": "Rev Iver Martin",
-    "profilePic": "assets/img/speakers/bear.jpg",
+    "profilePic": "assets/img/speakers/iver.png",
     "twitter": "ionicframework",
     "about": "Burt is a Bear.",
     "location": "Everywhere",
@@ -483,59 +481,69 @@
     "phone": "+1-541-754-3010",
     "id": "1"
   }, {
-    "name": "Iain Hepburn",
-    "profilePic": "assets/img/speakers/cheetah.jpg",
+    "name": "Calum Mackellar",
+    "profilePic": "assets/img/speakers/mackellar.png",
     "twitter": "ionicframework",
-    "about": "Charlie is a Cheetah.",
+    "about": "Having trained as a researcher in biochemistry Dr. Calum MacKellar is now a Visiting Lecturer of Bioethics with St. Mary's University In London and the Director of Research of the Scottish Council on Human Bioethics which encourages the engagement of Scottish society in this field. Having worked with the Bioethics Division of the Council of Europe in Strasbourg, Dr. MacKellar has, in addition, extensivebexperience of international bioethics.",
     "location": "Everywhere",
     "email": "charlie@example.com",
     "phone": "+1-541-754-3010",
     "id": "2"
   }, {
     "name": "Dominic Smart",
-    "profilePic": "assets/img/speakers/duck.jpg",
+    "profilePic": "assets/img/speakers/smart.png",
     "twitter": "ionicframework",
-    "about": "Donald is a Duck.",
+    "about": "Dominic was born in Yorkshire but has lived in Scotland since 1979. Having served in churches in Edinburgh, Dundee and Aberdeen he has now started his own leadership and organisational development practice, working in both the corporate and church worlds. He is married to Marjorie and they have four children and a dog. Dominic enjoys music, films, fell-walking in the Lake District, cities (top three are London, New York and Venice), cars, curries, coffee and a range of other beverages and cordials. All this has furnished Dominic with an unusual expertise in failure!",
     "location": "Everywhere",
     "email": "donald@example.com",
     "phone": "+1-541-754-3010",
     "id": "3"
   }, {
-    "name": "Kate Forbes",
-    "profilePic": "assets/img/speakers/eagle.jpg",
+    "name": "Anonymous",
+    "profilePic": "assets/img/speakers/anon.png",
     "twitter": "ionicframework",
-    "about": "Eva is an Eagle.",
+    "about": "Because the FCYC app is publically available, this speaker's identity has been hidden. Please look at your handbook to find out more information",
     "location": "Everywhere",
     "email": "eva@example.com",
     "phone": "+1-541-754-3010",
     "id": "4"
   }, {
     "name": "Louise Macmillan",
-    "profilePic": "assets/img/speakers/elephant.jpg",
+    "profilePic": "assets/img/speakers/louise.png",
     "twitter": "ionicframework",
-    "about": "Ellie is an Elephant.",
+    "about": "Louise is a Biblical counselor and works with New Growth Counselling in Edinburgh. Her work involves counseling people with problems like depression, anxiety and relationship difficulties. Louise is married to Neil and they have four children. She is originally from Marvig, on the Isle of Lewis and loves little more than good food, good friends, and good conversation.",
     "location": "Everywhere",
     "email": "ellie@example.com",
     "phone": "+1-541-754-3010",
     "id": "5"
   }, {
-    "name": "Calum Mackellar",
-    "profilePic": "assets/img/speakers/giraffe.jpg",
+    "name": "Iain Hepburn",
+    "profilePic": "assets/img/speakers/hepburn.png",
     "twitter": "ionicframework",
-    "about": "Gino is a Giraffe.",
+    "about": "Dr. Iain Hepburn mostly works as a Ministry Associate for Gilcomston Church in Aberdeen. The rest of the time sees him with his main passions in life, his three children and lecturing in Old Testament. It is in the latter capacity that he has worked in Pakistan, Glasgow and most recently Australia, specifically looking at the original languages and texts that are all too often overlooked.",
     "location": "Everywhere",
     "email": "gino@example.com",
     "phone": "+1-541-754-3010",
     "id": "6"
   }, {
     "name": "Lara Buchanan",
-    "profilePic": "assets/img/speakers/iguana.jpg",
+    "profilePic": "assets/img/speakers/lara.png",
     "twitter": "ionicframework",
-    "about": "Isabella is an Iguana.",
+    "about": "Lara is an OCCA fellow with Ravi Zacharius International Ministries. For the past three years Lara has served as a member of the leadership team at St Aldate’s church in Oxford. Before that Lara grew up in South Africa and she was a secondary teacher in South Africa & London. Lara loves a good ceilidh & has many hidden talents!",
     "location": "Everywhere",
     "email": "isabella@example.com",
     "phone": "+1-541-754-3010",
     "id": "7"
+  },
+ {
+    "name": "Andy Robertson",
+    "profilePic": "assets/img/speakers/andy.png",
+    "twitter": "ionicframework",
+    "about": "The man of many names...\"Funkmaster\", \"Dr Love\", \"Robo cop\" \"Sharpay\", \"Napoleon Dynamite\" - the list goes on. As cool as this sounds most of these names have been self assigned, yet to be picked up by other people so feel free to pick your favourite.  Andy studied at Abertay Uni doing computer arts (which means creating games and animations) & more recently studied theology at Edinburgh Theological Seminary. Andy is married to the lovely Caireen and they have an adorable baby boy Finlay. Andy is currently the minister of Charleston Church plant in F'undee and here to talk to us today about handling God's word. Andy is a very gifted speaker who knows how to make anyone enthusiastic about the gospel!!! Andy has an eclectic taste of music and has had a very varied range of hairstyles throughout his days!!",
+    "location": "Everywhere",
+    "email": "isabella@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "8"
   }],
 
   "message": "'To Timothy, my true child in the faith: Grace, mercy, and peace from God the Father and Christ Jesus our Lord…' (1 Timothy 1:2)\n\nThe months have turned into weeks, the weeks have turned into days, days into hours, and now we have finally arrived. We’ve travelled miles across the country (hats off to those who have crossed seas) to be here and it is an immense privilege and joy to be able to welcome you to this year’s Free Church Youth Conference.\n\nMany a thank you needs to be expressed at this point not least beginning with you guys. Lots of people have made sacrifices to be here and your commitment and enthusiasm to this weekend is humbling. Thank you to the seminar speakers, giving of their time to come share their wisdom and I hope there is something offered to benefit your spiritual wellbeing (the committee think you are going to struggle choosing just two of the seminars!). This weekend is going to be fuelled by some top class people in the kitchen, spearheaded by the wonderful husband and wife duo of Gerry & Fiona Dolan (if you want to see Christian service in action, then observe and learn from these guys). At this point, can we all take a moment to appreciate the endeavours of my committee members. They’ve had a rough time of it enduring my demands and requests and each one has excelled with grace and humility. Be sure to thank them. A warm welcome and thank you needs to be extended to our main speaker this year, Calum Iain Macleod - minister of Back Free Church. Calum Iain is no stranger to the conference having been the successful face of the famous 2016 minister’s “BOOK NOW’ advertising campaign. We are delighted Calum Iain can be here, along with his wife Dina, and I am looking forward to being stretched by what he will have to share with us from God’s word.\n\nWe are going to be spending the bulk of our time with Calum Iain in the gymnasium of 1 & 2 Timothy, exercising our minds in matters of faith and godliness just as Paul was writing to Timothy to call him to live a life beyond reproach and marked out by boldness, endurance, and faithfulness. This life is not a game and our commitment to our walk with God must be one we take seriously. I love how real the Bible gets about holiness. This Christian life is a struggle, sin will show up in a believer’s life but it is still a life about striving for obedience. There is a fight. A fight we will ultimately win empowered by the Spirit of God. Let’s be serious about our sanctification. \n\nPraise God for other ways he helps us in this fight too. We have each other, the body of Christ, what a resource! We are delighted to have Mud (real name) and Maggie Macleod as our houseparents, to share wisdom that comes with spiritual maturity. Please talk to them, ask them questions, ask them about the times they’ve got it wrong as well as right and share in the joy that comes with being around them. \n\nMake the most of the time with old friends and be bold to make new friends. Be bold to be happy in Jesus. Be bold in saying I desire holiness. Then help each other do it.\n\nThis is your weekend. Have an absolute belter of a time!\n\nLove, Carina x",
@@ -544,11 +552,24 @@
       "title": "Bookstall",
       "body": "We are delighted to welcome back 10ofThose to provide the bookstall once again for the weekend. There will be a variety of books as well as some that have been recommended by our various speakers. Be sure to check it out and please take the time to speak to our 10ofthose rep, Alex, who will be happy to help and will enjoy your chat. If you are not sure what to buy, Alex will point you in the right direction so make the most of his wisdom this weekend too. "
     },
+     {
+      "title": "Activities",
+      "body": "Saturday afternoon allows for some free time to kick back and enjoy each other’s company. You may want to enjoy the sunshine on Saturday afternoon by exploring the great outdoors, playing football or organising a game of your own."
+    },
+     {
+      "title": "Snackage",
+      "body": "Snackage One of the most exciting announcements of the weekend is that a brand new vending machine is now available. This is here to meet your confectionary needs 24/7! With a plethora of sweet treats and delights, it is at your beck and call all weekend so make the most of it. It takes both notes and coins, and also gives change. Long live the Vending Machine"
+    },
     {
       "title": "A Few Rules",
       "body": "1. No alcohol is allowed at the Conference and no smoking is allowed inside the buildings or near the front door. \n2. \t Don't make a noise in the corridors when people are trying to sleep. \n3. \t If you have a cup of tea or coffee please make sure you wash your cup once finished.\n4. \t Help the cooks as much as possible by clearing away the plates on your tables and remember if it is your turn to do the dishes.\n5. \t The fire alarm is near the ping pong table, try not to set it off with your elbow.  \n6. \t Enjoy your weekend!"
     }
   ],
+
+  "houseparents": {
+    "profilePic": "assets/img/houseparents.png",
+    "message": "Our House Parents this weekend are Murdo and Maggie Macleod. But Murdo is just his stage name: he is known by most as Mud. They’ve faced the treacherous A9 to travel down from Nairn where Mud has been the minister of Nairn Free Church since 2008. Mud is originally from Glasgow where he worked in publishing, with a bit of eldership on the side at Dowanvale Free Church. He made the move to Edinburgh when he married Maggie: who had left the cosmopolitan life of North Tolsta, Isle of Lewis to pursue a career in midwifery in Edinburgh. Later on, during his mid-life crisis, Mud studied at ETS and became a minister. They have two children: Angus and Kirsty. Angus managed to dodge the embarrassment of attending the Youth Conference with his parents but Kirsty was not so lucky. Their third child is called Bonnie, and whilst border collie in form, is really just another family member. Mud and Maggie are an incredibly warm, friendly and Godly couple, do make sure you speak to them at some point during the weekend. But fair warning: Mud’s jokes are notoriously bad and may incite unbearable levels of cringe."
+  },
 
   "cooks": {
     "imgUrl": "./.",

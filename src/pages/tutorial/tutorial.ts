@@ -37,7 +37,7 @@ export class TutorialPage {
   public password = 'alks'
 
   onClick(){
-    if (this.pwd == "conf"){
+    if (this.pwd == "reformation"){
       this.storage.set(this.password, true);
       this.startApp();
     } else {

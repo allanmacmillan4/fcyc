@@ -1,0 +1,27 @@
+<ion-header>
+	<ion-navbar>
+		<button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+		<ion-title>Important People</ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<ion-item>
+		<h2>Houseparents</h2>
+		<br>
+		<div text-center class="houseparents">
+    	<img [src]="houseparents?.profilePic" alt="houseparents" ><br>
+		</div>
+		<br/>
+		<p style="white-space: pre-line;">{{houseparents?.message}}</p>
+	</ion-item>
+
+	<ion-item>
+		<h2>Cooks</h2>
+		<br/>
+	
+		<p style="white-space: pre-line;">{{cooks?.message}}</p>
+	</ion-item>
+</ion-content>

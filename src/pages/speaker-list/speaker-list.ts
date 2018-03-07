@@ -12,7 +12,7 @@ import { ConferenceData } from '../../providers/conference-data';
 
 import { SessionDetailPage } from '../session-detail/session-detail';
 import { SpeakerDetailPage } from '../speaker-detail/speaker-detail';
-
+import * as _ from "lodash";
 // TODO remove
 export interface ActionSheetButton {
   text?: string;
@@ -40,7 +40,7 @@ export class SpeakerListPage {
 
   ionViewDidLoad() {
     this.confData.getSpeakers().subscribe((speakers: any[]) => {
-      this.speakers = speakers;
+      this.speakers = _.sortBy(speakers, 'id');
     });
   }
 

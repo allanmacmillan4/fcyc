@@ -2,17 +2,22 @@ import { Component } from '@angular/core';
 import { ConferenceData } from '../../providers/conference-data';
 
 @Component({
-  selector: 'cooks',
-  templateUrl: 'cooks.html'
+  selector: 'important',
+  templateUrl: 'important.html'
 })
-export class CooksPage {
-  information:ICooks;
+export class ImportantPage {
+  cooks:ICooks;
+  houseparents: any;
 
   constructor(public conferenceData: ConferenceData) { }
 
   ionViewWillEnter() {
     this.conferenceData.getCooks().subscribe((message: ICooks) => {
-      this.information = message;
+      this.cooks = message;
+    })  
+
+     this.conferenceData.getHouseparents().subscribe((message: any) => {
+      this.houseparents = message;
     })  
   }
 }

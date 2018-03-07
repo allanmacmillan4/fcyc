@@ -8,14 +8,14 @@ import { Storage } from '@ionic/storage';
 import { AboutPage } from '../pages/about/about';
 import { ConvenorPage } from '../pages/convenor/convenor';
 import { MapPage } from '../pages/map/map';
-import { SignupPage } from '../pages/signup/signup';
+import { CommitteePage } from '../pages/committee/committee';
 import { TabsPage } from '../pages/tabs-page/tabs-page';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 import { SchedulePage } from '../pages/schedule/schedule';
 import { SpeakerListPage } from '../pages/speaker-list/speaker-list';
 import { ContactPage } from '../pages/contact/contact';
 import { InformationPage } from '../pages/information/information';
-import { CooksPage } from '../pages/cooks/cooks';
+import { ImportantPage } from '../pages/important/important';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
@@ -51,9 +51,9 @@ export class ConferenceApp {
   loggedOutPages: PageInterface[] = [
     { title: 'Convenor\'s Message', name: 'ConvenorPage', component: ConvenorPage, icon: 'md-text' },
     { title: 'Essential Information', name: 'InformationPage', component: InformationPage, icon: 'md-information-circle' },
-    { title: 'Cooks', name: 'CooksPage', component: CooksPage, icon: 'md-pizza' },
+    { title: 'Important People', name: 'ImportantPage', component: ImportantPage, icon: 'md-pizza' },
     { title: 'Contact Info', name: 'ContactPage', component: ContactPage, icon: 'md-help' },
-    { title: 'The Committee', name: 'SignupPage', component: SignupPage, icon: 'ios-people' }
+    { title: 'The Committee', name: 'CommitteePage', component: CommitteePage, icon: 'ios-people' }
   ];
   rootPage: any;
 

@@ -19,14 +19,14 @@ import { MapPage } from '../pages/map/map';
 import { SchedulePage } from '../pages/schedule/schedule';
 import { ScheduleFilterPage } from '../pages/schedule-filter/schedule-filter';
 import { SessionDetailPage } from '../pages/session-detail/session-detail';
-import { SignupPage } from '../pages/signup/signup';
+import { CommitteePage } from '../pages/committee/committee';
 import { SpeakerDetailPage } from '../pages/speaker-detail/speaker-detail';
 import { SpeakerListPage } from '../pages/speaker-list/speaker-list';
 import { TabsPage } from '../pages/tabs-page/tabs-page';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 import { ContactPage } from '../pages/contact/contact';
 import { InformationPage } from '../pages/information/information';
-import { CooksPage } from '../pages/cooks/cooks';
+import { ImportantPage } from '../pages/important/important';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
@@ -43,14 +43,14 @@ import { UserData } from '../providers/user-data';
     SchedulePage,
     ScheduleFilterPage,
     SessionDetailPage,
-    SignupPage,
+    CommitteePage,
     SpeakerDetailPage,
     SpeakerListPage,
     TabsPage,
     TutorialPage,
     ContactPage,
     InformationPage,
-    CooksPage
+    ImportantPage
   
   ],
   imports: [
@@ -70,9 +70,9 @@ import { UserData } from '../providers/user-data';
         { component: ContactPage, name: 'ContactPage', segment: 'contact' },
         { component: ConvenorPage, name: 'ConvenorPage', segment: 'convenor' },
         { component: InformationPage, name: 'InformationPage', segment: 'information' },
-        { component: CooksPage, name: 'CooksPage', segment: 'cooks' },
+        { component: ImportantPage, name: 'ImportantPage', segment: 'important' },
         { component: AccountPage, name: 'AccountPage', segment: 'account' },
-        { component: SignupPage, name: 'SignupPage', segment: 'signup' }
+        { component: CommitteePage, name: 'CommitteePage', segment: 'committee' }
       ]
     }),
     IonicStorageModule.forRoot()
@@ -88,14 +88,14 @@ import { UserData } from '../providers/user-data';
     SchedulePage,
     ScheduleFilterPage,
     SessionDetailPage,
-    SignupPage,
+    CommitteePage,
     SpeakerDetailPage,
     SpeakerListPage,
     TabsPage,
     TutorialPage,
     ContactPage,
     InformationPage,
-    CooksPage
+    ImportantPage
   ],
   providers: [
     { provide: ErrorHandler, useClass: IonicErrorHandler },
