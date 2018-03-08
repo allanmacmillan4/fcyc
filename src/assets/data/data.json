@@ -72,9 +72,9 @@
     }, {
       "time": "9.45 am",
       "sessions":[{
-        "name": "Main Meeting 1 - ",
+        "name": "Main Meeting 1 - The Reformation & The Gospel",
         "location": "Kilpatrick Room",
-        "description": "Add description here",
+        "description": "Romans 1:13-17; 3:19-31",
         "speakerNames": ["Rev Iver Martin"],
         "timeStart": "9:45 am",
         "timeEnd": "11:00 am",
@@ -95,8 +95,8 @@
     }, {
       "time": "11:30 am",
       "sessions": [{
-        "name": "How To Love The Old Testament",
-        "location": "TBD",
+        "name": "Loving The Old Testament",
+        "location": "Glendevon Lounge (Glendevon)",
         "description": "",
         "speakerNames": ["Iain Hepburn"],
         "timeStart": "11:30 am",
@@ -105,7 +105,7 @@
         "id": "5"
       }, {
         "name": "What Hapens When We Get It Wrong",
-        "location": "TBD",
+        "location": "The Drawing Room (Moubray)",
         "description": "",
         "speakerNames": ["Dominic Smart"],
         "timeStart": "11:30 am",
@@ -114,16 +114,16 @@
         "id": "500"
       },{
         "name": "Christians In The Workplace",
-        "location": "TBD",
+        "location": "Meeting Room (Moubray)",
         "description": "",
-        "speakerNames": ["Anonymous"],
+        "speakerNames": ["Kate Forbes"],
         "timeStart": "11:30 am",
         "timeEnd": "12:45 pm",
         "tracks": ["Seminar Session 1"],
         "id": "5588"
       },{
         "name": "Christians & Mental Health",
-        "location": "TBD",
+        "location": "The Library (Ochil)",
         "description": "",
         "speakerNames": ["Louise Macmillan"],
         "timeStart": "11:30 am",
@@ -132,7 +132,7 @@
         "id": "12969875"
       },{
         "name": "How To Handle The Bible",
-        "location": "TBD",
+        "location": "The McDonald Room (Glendevon)",
         "description": "",
         "speakerNames": ["Andy Robertson"],
         "timeStart": "11:30 am",
@@ -141,7 +141,7 @@
         "id": "582876138"
       },{
         "name": "Dealing With The Gender Revolution",
-        "location": "TBD",
+        "location": "The Orangery (Ochil)",
         "description": "",
         "speakerNames": ["Lara Buchanan"],
         "timeStart": "11:30 am",
@@ -150,7 +150,7 @@
         "id": "59987123"
       },{
         "name": "Bioethics & The Bible",
-        "location": "TBD",
+        "location": "The Kilpatrick Room (Ochil)",
         "description": "",
         "speakerNames": ["Calum Mackellar"],
         "timeStart": "11:30 am",
@@ -172,8 +172,8 @@
     },{
       "time": "2:00 pm",
       "sessions": [{
-        "name": "How To Love The Old Testament",
-        "location": "TBD",
+        "name": "Loving The Old Testament",
+        "location": "Glendevon Lounge (Glendevon)",
         "description": "",
         "speakerNames": ["Iain Hepburn"],
         "timeStart": "2:00 pm",
@@ -182,7 +182,7 @@
         "id": "5123"
       }, {
         "name": "What Hapens When We Get It Wrong",
-        "location": "TBD",
+        "location": "The Drawing Room (Moubray)",
         "description": "",
         "speakerNames": ["Dominic Smart"],
         "timeStart": "2:00 pm",
@@ -191,16 +191,16 @@
         "id": "500123"
       },{
         "name": "Christians In The Workplace",
-        "location": "TBD",
+        "location": "The Meeting Room (Moubray)",
         "description": "",
-        "speakerNames": ["Anonymous"],
+        "speakerNames": ["Kate Forbes"],
         "timeStart": "2:00 pm",
         "timeEnd": "3:15 pm",
         "tracks": ["Seminar Session 2"],
         "id": "558818489"
       },{
         "name": "Christians & Mental Health",
-        "location": "TBD",
+        "location": "The Library (Ochil)",
         "description": "",
         "speakerNames": ["Louise Macmillan"],
         "timeStart": "2:00 pm",
@@ -209,7 +209,7 @@
         "id": "1296987541431"
       },{
         "name": "How To Handle The Bible",
-        "location": "TBD",
+        "location": "The McDonald Room (Glendevon)",
         "description": "",
         "speakerNames": ["Andy Robertson"],
         "timeStart": "2:00 pm",
@@ -218,7 +218,7 @@
         "id": "5828761342138"
       },{
         "name": "Dealing With The Gender Revolution",
-        "location": "TBD",
+        "location": "The Orangery (Glendevon)",
         "description": "",
         "speakerNames": ["Lara Buchanan"],
         "timeStart": "2:00 pm",
@@ -227,7 +227,7 @@
         "id": "5998712312312"
       },{
         "name": "Bioethics & The Bible",
-        "location": "TBD",
+        "location": "The Kilpatrick Room (Ochil)",
         "description": "",
         "speakerNames": ["Calum Mackellar"],
         "timeStart": "2:00 pm",
@@ -260,9 +260,9 @@
     }, {
       "time": "7:30 pm",
       "sessions": [{
-        "name": "Main Meeting 2 - ",
+        "name": "Main Meeting 2 - The Reformation & The Church",
         "location": "Kilpatrick Room",
-        "description": "",
+        "description": "1 Peter 2:1-12",
         "speakerNames": ["Rev Iver Martin"],
         "timeStart": "7:30 pm",
         "timeEnd": "8:45 pm",
@@ -333,9 +333,9 @@
     }, {
       "time": "10:15 am",
       "sessions":[{
-        "name": "Main Meeting 3 - ",
+        "name": "Main Meeting 3 - The Reformation & Me",
         "location": "Kilpatrick Room",
-        "description": "Add description here",
+        "description": "Romans 6",
         "speakerNames": ["Rev Iver Martin"],
         "timeStart": "10:15 am",
         "timeEnd": "12:00 pm",
@@ -376,31 +376,31 @@
         "id": "512333"
       }]
     }, {
-      "time": "2:30 pm",
+      "time": "2:15 pm",
       "sessions": [{
         "name": "Testimony Session",
         "location": "Kilpatrick Room",
         "description": "How Christ has, and is working in the lives of some of those at the conference",
-        "timeStart": "2:30 pm",
-        "timeEnd": "3:30 pm",
+        "timeStart": "2:15 pm",
+        "timeEnd": "3:15 pm",
         "tracks": ["Seminar Session 3"],
         "id": "1233"
       }]
     },{
-      "time": "3:30 pm",
+      "time": "3:15 pm",
       "sessions": [{
         "name": "Voting & Thank You's",
         "location": "Kilpatrick Room",
         "description": "This is where you get an opportunity to vote on who you would like to be on the FCYC 2019 committee. We will also thank those who made the weekend possible",
-        "timeStart": "3:30 pm",
-        "timeEnd": "3:45 pm",
+        "timeStart": "3:15 pm",
+        "timeEnd": "3:30 pm",
         "tracks": ["Misc"],
         "id": "433"
       }]
     }, {
       "time": "3:30 pm",
       "sessions": [{
-        "name": "Gather In Kilpatrick Room",
+        "name": "Tidy / Gather In Kilpatrick Room",
         "location": "Kilpatrick Room",
         "timeStart": "3:30 pm",
         "timeEnd": "4:00 pm",
@@ -435,14 +435,14 @@
   "committee": [{
     "name": "John MacPherson",
     "role": "Convenor",
-    "description" : "When Vin Diesel got in touch with John to maybe think of taking the role of Baby Groot in the next Avengers film, John didn't even think twice. With his guitar strapped to his chest, his Scottish accent and yet bronzed Peruvian skin glowing, John said 'Thanks, Vin, not this time. I have the youth conference to be at.' That is right. Here is where he had to be. Here in these freezing digs, basking in the warmth of your hearths and hearts, on this vice Convenor gig (whatever that means). He is passionate about friends and family and believes that music is one of the greatest ways to worship our Lord together and build one another up. Be warned, he may hug you.",
+    "description" : "When Vin Diesel got in touch with John to maybe think of taking the role of Baby Groot in the next Avengers film, John didn't even think twice. With his guitar strapped to his chest, his Scottish accent and yet bronzed Peruvian skin glowing, John said 'Thanks, Vin, not this time. I have the youth conference to be at.' That is right. Here is where he had to be. Here in these freezing digs, basking in the warmth of your hearths and hearts, on this Convenor gig (whatever that means). He is passionate about friends and family and believes that music is one of the greatest ways to worship our Lord together and build one another up. Be warned, he may hug you.",
     "profilePic": "assets/img/committee/john.png",
     "id": 1
   },
   {
     "name": "Craig Angus",
     "role": "Vice-Convenor",
-    "description" : "Lifts. Organiser of fun. Instagrams food. Wears vest. Inverness accent. Occasionally Glaswegian accent. Lifts. Has handkerchief. Often has a clipboard. Headstands. Strawberry Blonde. Lifts. Loves a good singsong, and knows too many words of Celine Dion. He's pretty good chat, and all that. Enjoys a strong hug, despite the exterior of a thug. Go get his chat if you don't you'll be miffed, and did I mention that he enjoys to lift",
+    "description" : "Lifts. Organiser of fun. Instagrams food. Wears vest. Inverness accent. Occasionally Glaswegian accent. Lifts. Has handkerchief. Often has a clipboard. Headstands. Strawberry Blonde. Lifts. Loves a good singsong, teacher of chemistry, shaper of young minds. He's pretty good chat, and all that. Enjoys a strong hug, despite the exterior of a thug. Go get his chat if you don't you'll be miffed, and did I mention that he enjoys to lift",
     "profilePic": "assets/img/committee/craig.png",
     "id": 2
   },{
@@ -475,7 +475,7 @@
     "name": "Rev Iver Martin",
     "profilePic": "assets/img/speakers/iver.png",
     "twitter": "ionicframework",
-    "about": "Burt is a Bear.",
+    "about": "This year we are delighted to welcome our main speaker – Principal Iver Martin. Iver is currently the Principal of Edinburgh Theological Seminary and has been since 2015. He is married, with six children (yes six children) and eight grandchildren.  He is a Paisley born lad, who in a previous life studied Electronics & Electrical Engineering at Robert Gordon’s University. He went on to work as a Microelectronics Engineer specialising in wet and dry etching techniques (whatever that is). Twelve years later, Iver began his Theological training and on completion, took up his first charge as the Assistant Minister of Stornoway Free Church. He later moved on to Bon Accord Free Church, however the pull of Stornoway was so strong that he returned six years later, only this time as the main pastor. He held that position for a further twelve years before embarking for the slightly drier and warmer climate of Edinburgh as Principal of ETS ",
     "location": "Everywhere",
     "email": "burt@example.com",
     "phone": "+1-541-754-3010",
@@ -499,10 +499,10 @@
     "phone": "+1-541-754-3010",
     "id": "3"
   }, {
-    "name": "Anonymous",
-    "profilePic": "assets/img/speakers/anon.png",
+    "name": "Kate Forbes",
+    "profilePic": "assets/img/speakers/kate.png",
     "twitter": "ionicframework",
-    "about": "Because the FCYC app is publically available, this speaker's identity has been hidden. Please look at your handbook to find out more information",
+    "about": "Kate Forbes was elected as MSP for Skye, Lochaber and Badenoch in May 2016 for the SNP. She is a member of the Environment, Climate Change and Land Reform Committee, and is Parliamentary Liaison Officer to the Cabinet Secretary for Finance. She is from Dingwall, although she spent part of her upbringing in Glasgow and India. Until she was elected, Kate was employed as an accountant in the banking industry. Prior to that she studied History at the Universities of Cambridge and Edinburgh. ",
     "location": "Everywhere",
     "email": "eva@example.com",
     "phone": "+1-541-754-3010",
@@ -546,11 +546,11 @@
     "id": "8"
   }],
 
-  "message": "'To Timothy, my true child in the faith: Grace, mercy, and peace from God the Father and Christ Jesus our Lord…' (1 Timothy 1:2)\n\nThe months have turned into weeks, the weeks have turned into days, days into hours, and now we have finally arrived. We’ve travelled miles across the country (hats off to those who have crossed seas) to be here and it is an immense privilege and joy to be able to welcome you to this year’s Free Church Youth Conference.\n\nMany a thank you needs to be expressed at this point not least beginning with you guys. Lots of people have made sacrifices to be here and your commitment and enthusiasm to this weekend is humbling. Thank you to the seminar speakers, giving of their time to come share their wisdom and I hope there is something offered to benefit your spiritual wellbeing (the committee think you are going to struggle choosing just two of the seminars!). This weekend is going to be fuelled by some top class people in the kitchen, spearheaded by the wonderful husband and wife duo of Gerry & Fiona Dolan (if you want to see Christian service in action, then observe and learn from these guys). At this point, can we all take a moment to appreciate the endeavours of my committee members. They’ve had a rough time of it enduring my demands and requests and each one has excelled with grace and humility. Be sure to thank them. A warm welcome and thank you needs to be extended to our main speaker this year, Calum Iain Macleod - minister of Back Free Church. Calum Iain is no stranger to the conference having been the successful face of the famous 2016 minister’s “BOOK NOW’ advertising campaign. We are delighted Calum Iain can be here, along with his wife Dina, and I am looking forward to being stretched by what he will have to share with us from God’s word.\n\nWe are going to be spending the bulk of our time with Calum Iain in the gymnasium of 1 & 2 Timothy, exercising our minds in matters of faith and godliness just as Paul was writing to Timothy to call him to live a life beyond reproach and marked out by boldness, endurance, and faithfulness. This life is not a game and our commitment to our walk with God must be one we take seriously. I love how real the Bible gets about holiness. This Christian life is a struggle, sin will show up in a believer’s life but it is still a life about striving for obedience. There is a fight. A fight we will ultimately win empowered by the Spirit of God. Let’s be serious about our sanctification. \n\nPraise God for other ways he helps us in this fight too. We have each other, the body of Christ, what a resource! We are delighted to have Mud (real name) and Maggie Macleod as our houseparents, to share wisdom that comes with spiritual maturity. Please talk to them, ask them questions, ask them about the times they’ve got it wrong as well as right and share in the joy that comes with being around them. \n\nMake the most of the time with old friends and be bold to make new friends. Be bold to be happy in Jesus. Be bold in saying I desire holiness. Then help each other do it.\n\nThis is your weekend. Have an absolute belter of a time!\n\nLove, Carina x",
+  "message": "Dearest delegates,\n\n The time has finally come for us to Re-form after a year apart. Much has happened in our world since we last convened in Lendrick Muir a year ago… Just 2 weeks after the last conference, our nation's Convenor, Theresa Slay, triggered Article 50 and the subsequent bundles of joy and unanimous harmony on the streets since. Ed Sheeran MBE reigned supreme on Spotify and it’s been incredibly hard to avoid famous actors in Lycra saving the world from increasingly less coherent plotlines. Neymar, Stranger Things, Strong and Stable covfefe, La la land (or was it Moonlight?) and so much more. On a slightly more serious note, a lot has happened in our world that isn’t funny or cause for rejoicing. Looking at some 'Year in Review' articles before writing this made for a sobering reminder of the presence of evil and sin and the desperate need for Reformation. It’s once again time for the Youth Conference and I can’t wait to gather with you and be reminded of our need to always be working to ensure that our hearts and lives are being reformed by the Word and Spirit of God. \n\n Love John",
   "information": [
     {
       "title": "Bookstall",
-      "body": "We are delighted to welcome back 10ofThose to provide the bookstall once again for the weekend. There will be a variety of books as well as some that have been recommended by our various speakers. Be sure to check it out and please take the time to speak to our 10ofthose rep, Alex, who will be happy to help and will enjoy your chat. If you are not sure what to buy, Alex will point you in the right direction so make the most of his wisdom this weekend too. "
+      "body": "We are delighted to welcome back 10ofThose to provide the bookstall once again for the weekend. There will be a variety of books as well as some that have been recommended by our various speakers. Be sure to check it out and please take the time to speak to our 10ofThose rep, Alex, who will be happy to help and will enjoy your chat. If you are not sure what to buy, Alex will point you in the right direction so make the most of his wisdom this weekend too. "
     },
      {
       "title": "Activities",
@@ -558,7 +558,7 @@
     },
      {
       "title": "Snackage",
-      "body": "Snackage One of the most exciting announcements of the weekend is that a brand new vending machine is now available. This is here to meet your confectionary needs 24/7! With a plethora of sweet treats and delights, it is at your beck and call all weekend so make the most of it. It takes both notes and coins, and also gives change. Long live the Vending Machine"
+      "body": "One of the most exciting announcements of the weekend is that a brand new vending machine is now available. This is here to meet your confectionary needs 24/7! With a plethora of sweet treats and delights, it is at your beck and call all weekend so make the most of it. It takes both notes and coins, and also gives change. Long live the Vending Machine"
     },
     {
       "title": "A Few Rules",
