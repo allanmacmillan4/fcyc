@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="allan.fcyc" version="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="allan.fcyc" version="0.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>FCYC 2018</name>
     <description>An app for the Free Church Youth Conference 2018</description>
     <author email="freechurchyouthconference@gmail.com" href="http://freechurchyouthconference.com/">FCYC</author>
