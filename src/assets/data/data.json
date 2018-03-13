@@ -240,9 +240,9 @@
       "sessions": [{
         "name": "Free Time",
         "location": "Anywhere",
-        "description": "Football, Capture The Tattie, uni work, or a nice relaxing walk - whatever you fancy! Invite others along with you and get to knonw some new faces",
+        "description": "Football, Capture The Tattie, uni work, or a nice relaxing walk - whatever you fancy! Invite others along with you and get to know some new faces",
         "timeStart": "3:30 pm",
-        "timeEnd": "6:30 pm",
+        "timeEnd": "6:00 pm",
         "tracks": ["Chill"],
         "id": "12"
       }]
@@ -351,7 +351,7 @@
         "timeStart": "12:00 pm",
         "timeEnd": "12:30 pm",
         "tracks": ["Misc"],
-        "id": "433"
+        "id": "433dkjhd"
       }]
     }, {
       "time": "12:30 pm",
@@ -419,12 +419,12 @@
         "id": "1633"
       }]
     }, {
-      "time": "6:00 pm",
+      "time": "5:30 pm",
       "sessions": [{
         "name": "Optional - Stirling FC Evening Service",
-        "location": "Stirling Court Hotel",
-        "description": "",
-        "timeStart": "6:00 pm",
+        "location": "Smith Art Gallery",
+        "description": "Smith Art Gallery, 40 Albert Pl, \nStirling \nFK8 2RQ",
+        "timeStart": "5:30 pm",
         "timeEnd": "7:30 pm",
         "tracks": ["Misc"],
         "id": "1933"
@@ -454,7 +454,7 @@
   },{
     "name": "Keith Nicolson",
     "role": "Handbook & Fundraising",
-    "description" : "Keith currently lives and works in Edinburgh, working for the Free Church of Scotland in the central offices. He runs, cycles, loves motorbikes and slow cookers but more importantly he didn't leave enough room in the booklet to convince people that he is cooler than his name suggests. So speak to him or check out the FCYC app!",
+    "description" : " This is Keith and his main aim in life is to be cooler than his name suggests.  Keith is most commonly seen sporting a fleece (predominantly in a fashionable charcoal or sleek black) and unusual slippers. He keeps up with the latest styles using a clothing excel spreadsheet and adores anything with two wheels bikes. If the conversation turns to food, Keith will almost always try and convince you and everyone around to get a slow cooker. Keith currently lives and works in Edinburgh, working for the Free Church of Scotland Office doing lots of secret work behind the scenes. He has previously lived in Cardiff, been a Ministry Apprentice, lived the Baywatch life as a lifeguard and set up his own business (car washing for all his neighbours).",
     "profilePic": "assets/img/committee/keith.png",
     "id": 5
   },{
